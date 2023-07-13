@@ -6,13 +6,14 @@ What problem are we working on solving? Could be a summary from the product spec
 
 Functional Requirements
 =======================
-1) What are the use cases? This about access patterns "Given user id 123, return all orders".
+1) Identify main business objects and their relationships.
+Do business objects contain media? (Images, audio, files)
+Which objects can be mutated and which can't? Deleted?
+2) What are the use cases? This about access patterns "Given user id 123, return all orders".
 Create a table of main use cases, edge cases and behaviors that are not explicit in the product spec. Make sure to run them by product and seek agreement.
 It is crucial that this captures the bulk if not all of the behaviors to be supported as this will be used by QA as well as their starting point for a testing plan.
 
-3) Identify main business objects and their relationships.
-Do business objects contain media? (Images, audio, files)
-Which objects can be mutated and which can't? Deleted?
+
 
 Non Functional Requirements
 ===========================
